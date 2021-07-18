@@ -7,3 +7,9 @@
 - p4 : Dashboard buidling using GDS
 
 - Product recommendation ?
+
+### Commit tags :
+
+- [NEW] : a whole new feature/work
+- [IMP] : improvement on top of the existing work
+- [FIX] : debugging

@@ -1,0 +1,31 @@
+question to ask :
+- when Explore is enough ? (d6)
+- what kind of descriptive analytics do kinesso and those 'analytics product provider' companies ? (d4)
+
+Answers :
+- OSEMN framework is an iterative process (NOT linear)
+- obtain, scrub, explore, model, turns out get bad model
+- get more data, or scrub better, or add/remove outliers whether it improve the model, etc
+- make sure u check every distributions of each features. there could be a case where the reason why model gives more accurate result is solely because one feature has a unique distribution (parentom uniform, poisson, etc)
+- TLDR, Explore is enough when model is already give a good train-test result. Just do these 3 checks (correlation check, add/remove outlier will affect model accuracy?,  take note on each features distributions)
+
+======
+
+- Analytics Companies is honestly do research with focus group , and result share to client. thats all. nothing special
+
+=====
+
+- Boxplot is literally use to see whether we need to standardize/normalize the selected feature or not (Need to standard/normalize if alot of outliers)
+
+- If got null data less than 10% of whole dataset, either dropna() OR drop those features that has too many null, but if more than that, the dataset is not deemed as a “good” dataset. In real world example, You might need to find more data from your team or from other sources
+
+=====
+
+Always scale your data before you put in inside the model. at worst, you will get same accuracy
+
+Why ?
+Purpose of scaling is to make sure that we can still bring in outlier data into the model without distorting the model result (since its way too far)
+
+How ?
+use StandardScaler() unless otherwise (eg : comp vision best using normalisation() because common practice)
+

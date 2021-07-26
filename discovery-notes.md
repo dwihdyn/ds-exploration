@@ -35,6 +35,6 @@ use StandardScaler() unless otherwise (eg : comp vision best using normalisation
 
 - random_state in [train_test_split](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html), is to make sure that we are fixed with a specific set of training data.
 - if we dont put anything in random_state, what happen is that train_test_split will always takes different set of data on every run, hence we cant see whether the model is actually improving or not
-- see this [notebook](https://colab.research.google.com/drive/1vFiIWc8YuUEbDQYpKSeA2n5Qo30xPFBT?usp=sharing)
+- see this [notebook](https://github.com/dwihdyn/ds-exploration/blob/main/screenshots-samples-etc/random-seed-sample.ipynb)
   - if we dont state the random_seed, first run, the random_state could be 1, next is 37, and so on, which we have prove already in notebook that each random_state will gives out different set.
   - but as long as the seed is same, the training set data will always be the same, hence that way we can actually see whether our model improves or not

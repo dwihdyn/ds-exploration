@@ -42,6 +42,7 @@ use StandardScaler() unless otherwise (eg : comp vision best using normalisation
 =====
 
 - R-squared in linear regression :
+  - accuracy on test data is SAME as R^squares
   - measure how close the data are to the line-of-best-fit
   - range between 0 to 1.
   - 1 means line fits perfectly with all datapoints, 0 vise versa

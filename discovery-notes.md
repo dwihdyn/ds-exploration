@@ -38,3 +38,10 @@ use StandardScaler() unless otherwise (eg : comp vision best using normalisation
 - see this [notebook](https://github.com/dwihdyn/ds-exploration/blob/main/screenshots-samples-etc/random-seed-sample.ipynb)
   - if we dont state the random_seed, first run, the random_state could be 1, next is 37, and so on, which we have prove already in notebook that each random_state will gives out different set.
   - but as long as the seed is same, the training set data will always be the same, hence that way we can actually see whether our model improves or not
+
+=====
+
+- R-squared in linear regression :
+  - measure how close the data are to the line-of-best-fit
+  - range between 0 to 1.
+  - 1 means line fits perfectly with all datapoints, 0 vise versa

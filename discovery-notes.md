@@ -46,3 +46,27 @@ use StandardScaler() unless otherwise (eg : comp vision best using normalisation
   - measure how close the data are to the line-of-best-fit
   - range between 0 to 1.
   - 1 means line fits perfectly with all datapoints, 0 vise versa
+
+=====
+
+NLP :
+
+- unstructure data :
+
+  - data that cant be stored in row & column (eg : audio, image)
+  - use case : NLP
+
+- Text preprocessing :
+  - same as "Scrub" in OSEMN
+  - once you build model, and model is bad, we might have to go back this step again to feature enginerring
+  - steps text normalisation :
+    - convert all letter in sentence to lowercase
+    - covert numbers to word [ten to 10]
+    - remove stop word (she, and, from the,...) or particular words (remove common terms like 'RT' in twitter)
+    - tokenization (break whats remaining in the sentence into many words in that sentence)
+    - n-grams combine tokens that must be combined,
+      - eg :
+        - 2-gram red apple, anti war
+        - 4-gram thank you very much, national uni of singapore
+  - method2 to scrub : stemming OR lemmatization : its a library that we input the whole sentence, and output tokenized letters from the inputSentence (output stem more machine-friendly, and lemmatization more human-friendly)
+    - careful : eg sentence is "john run faster than ben", using stem OR lem will output as fast, not 'faster', which in this sentence is pretty crucial

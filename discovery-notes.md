@@ -70,3 +70,34 @@ NLP :
         - 4-gram thank you very much, national uni of singapore
   - method2 to scrub : stemming OR lemmatization : its a library that we input the whole sentence, and output tokenized letters from the inputSentence (output stem more machine-friendly, and lemmatization more human-friendly)
     - careful : eg sentence is "john run faster than ben", using stem OR lem will output as fast, not 'faster', which in this sentence is pretty crucial
+
+=====
+
+see more in dwi bookmarkPage > unstructured data & how to store them
+
+metadata :
+
+- data about the unstructure data that helps us explain it. in understandable format
+- stored in mongoDB, firebase, neo4j (structured data stored in mysql, postgresql)
+
+Types of unstructured data & where to store :
+
+1. document : mongodb :
+
+- type of document database that allow us to store data in JSON-like doc format
+- dont need schema/database design beforehand (unlike mySQL)
+
+2. column : hadoop hbase :
+
+- column oriented non-relational database
+- run on hadoop, store sparse dataset
+- best for real-time dataset that has random read write access to large volume data (how long u stay on fb daily ?)
+
+3. key value pair : redis (remote dictionary server) :
+
+- serves as type of in-memory key method to store database
+- best for retrieve data based on specific key at web server, & caching purpose to improve performance of our system
+
+4. graph : neo4j :
+
+- uses graph to extract added value to our data, where it shows different relationship between different elements in graph tables is defined by nodes & edges with those labels to indicate their relationship

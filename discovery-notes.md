@@ -101,3 +101,12 @@ Types of unstructured data & where to store :
 4. graph : neo4j :
 
 - uses graph to extract added value to our data, where it shows different relationship between different elements in graph tables is defined by nodes & edges with those labels to indicate their relationship
+
+=====
+
+- Assigning binary column (eg : is_partner) from no yes to 0 1, this does NOT us saying that someone with partner have better chance just because we set yes as 1. we can just terbalik it yes no to 0 1, and yield same result. (model know already that 0 1 kind of data is binary, NOT weights. dont worry!)
+
+- DO NOT ASSIGN WEIGHT DIRECTLY, just use get_dummies (onehotencoding).
+  - its the ML model job to assign the weights, because we never know in the future (what we set as high weight now, does not mean in the future will stay true, future are very uncertain). assign weight DIRECTLY will lead to overfitting (high accuracy now, bad prediction towards live data)
+  - For assigning weights to your model, wouldn’t that defeat the purpose of ML, since ML learns and assigns the weights onto itself? To improve your model you should adjust your parameters, threshold, etc. But you should avoid directly influencing what the model is learning on its own.
+  - "but this method improved the accuracy on TEST dataset". chances this is overfitting. >90% accuracy on TEST dataset does NOT mean that it is a good model.

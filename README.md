@@ -13,3 +13,7 @@
 - [NEW] : a whole new feature/work
 - [IMP] : improvement on top of the existing work
 - [FIX] : debugging
+
+### Data Science Principle :
+
+- Do whole OSEMN at bare minimum, and then find way to improve accuracy on test data

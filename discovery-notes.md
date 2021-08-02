@@ -110,3 +110,7 @@ Types of unstructured data & where to store :
   - its the ML model job to assign the weights, because we never know in the future (what we set as high weight now, does not mean in the future will stay true, future are very uncertain). assign weight DIRECTLY will lead to overfitting (high accuracy now, bad prediction towards live data)
   - For assigning weights to your model, wouldn’t that defeat the purpose of ML, since ML learns and assigns the weights onto itself? To improve your model you should adjust your parameters, threshold, etc. But you should avoid directly influencing what the model is learning on its own.
   - "but this method improved the accuracy on TEST dataset". chances this is overfitting. >90% accuracy on TEST dataset does NOT mean that it is a good model.
+
+=====
+
+- nltk vader compound value are min -1, max +1.

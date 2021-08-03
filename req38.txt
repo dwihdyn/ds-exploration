@@ -130,5 +130,6 @@ wcwidth==0.2.5
 webencodings==0.5.1
 websocket-client==1.1.0
 Werkzeug==2.0.1
+wordcloud==1.8.1
 wrapt==1.12.1
 xgboost==1.4.2

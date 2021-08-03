@@ -2,7 +2,7 @@
 
 - p0 : intro
 - p1 : Predict Customer Churn using decision tree (d11, 12)
-- p2 : Forecasting using Regression analysis
+- p2 : Forecasting using Regression analysis (d17, 18)
 - p3 : Social media & sentiment text analysis
 - p4 : Dashboard buidling using GDS
 

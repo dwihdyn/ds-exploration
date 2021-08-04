@@ -114,3 +114,7 @@ Types of unstructured data & where to store :
 =====
 
 - nltk vader compound value are min -1, max +1.
+
+=====
+
+- find a problem, and think of how to solve it using data science. NOT forcing a problem that the solution is using data science

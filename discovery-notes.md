@@ -118,3 +118,4 @@ Types of unstructured data & where to store :
 =====
 
 - find a problem, and think of how to solve it using data science. NOT forcing a problem that the solution is using data science
+- its COMPLETELY fine if the solution doesnt requires data science. some solution are way simpler to solve & not needed ot tough solution

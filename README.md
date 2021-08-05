@@ -5,8 +5,10 @@
 - p2 : Forecasting using Regression analysis (d17, 18)
 - p3 : Social media & sentiment text analysis (d24)
 - p4 : Dashboard buidling using GDS
+- p5 : Kaggle Exploration :
 
-- Product recommendation ?
+  - Mall customer segmentation [data](https://www.kaggle.com/vjchoudhary7/customer-segmentation-tutorial-in-python) (mcs)
+  - Market basket analysis (mba)
 
 ### Commit tags :
 

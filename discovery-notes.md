@@ -119,3 +119,19 @@ Types of unstructured data & where to store :
 
 - find a problem, and think of how to solve it using data science. NOT forcing a problem that the solution is using data science
 - its COMPLETELY fine if the solution doesnt requires data science. some solution are way simpler to solve & not needed ot tough solution
+
+=====
+
+- DE get data ready, DA storytelling, DS predictions using ready-made packages, MLE build our own ML packages that best for our company
+
+  - Hire DS first as they're jack of all trade
+  - then DE, then DA, then MLE when need to create general analytical packages that can help ALL clients
+
+- Churn Analysis works best for "subscription model" business. (odoo, netflix, etc)
+
+- Webscraping good practices :
+  - use cloud instances/virtualenv that allows you to use different IP
+  - make sure the scraping behaviour are like human (not able to jump one page to other in matter of second)
+  - webscrape ONLY if given website has no API services, best method is always been API
+
+=====

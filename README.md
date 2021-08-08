@@ -21,3 +21,7 @@
 - Do whole OSEMN at bare minimum, and then find way to improve accuracy on test data
 - Data Science is **_just a tool_** to solve a problem. just like software developer, you DONT need to create everything from scratch. sometimes theres better solution out there already
 - find a problem first in a business, then ask youself "can you solve this using data science tools OR can be fix easily without it?"
+- where to buy data (data vendors/brokers) ?
+  - general : nielsen
+  - fashion : omnilytics
+  - best method is actually collect your own data in your mobile apps (eg : grab, bigpay, MAE maybank)

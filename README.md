@@ -9,6 +9,7 @@
 
   - Mall customer segmentation [data](https://www.kaggle.com/vjchoudhary7/customer-segmentation-tutorial-in-python) (mcs)
   - Market basket analysis (mba)
+  - big retail players twitter analysis on orange, using (shareable) public twitter API
 
 ### Commit tags :
 

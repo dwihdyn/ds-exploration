@@ -8,8 +8,9 @@
 - p5 : Kaggle Exploration :
 
   - Mall customer segmentation [data](https://www.kaggle.com/vjchoudhary7/customer-segmentation-tutorial-in-python) (mcs)
-  - Market basket analysis (mba)
-  - big retail players twitter analysis on orange, using (shareable) public twitter API
+  - Market basket [analysis](https://www.kaggle.com/dwihdyn/mkt-bskt-analysis) and [prediction](https://www.kaggle.com/dwihdyn/mkt-bskt-prediction/) (mba)
+  - Big retail players twitter analysis on orange, using (shareable) public twitter API (indoretail-comp-analysis)
+  - How to loop massive datasets (better-loops)
 
 ### Commit tags :
 

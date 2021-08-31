@@ -1,4 +1,4 @@
-# mrkt bskt prediction
+# mrkt bskt prediction + exploration best practices in retail
 
 - TLDR :
 
